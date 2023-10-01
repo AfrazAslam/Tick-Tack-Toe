@@ -1,0 +1,28 @@
+
+<div class="wrapper-container">
+  
+  <div class="grid-container">
+    <div class="grid-item" *ngFor="let value of values; let i = index">
+      <app-block [value]="value" (click)="setValue(i)"></app-block>
+    </div>
+  </div>
+
+  <div class="winning-condition-wrapper">
+    <p *ngIf="userXWon" class="center-text color-text-white">
+      X won
+    </p>
+    <p *ngIf="userYWon"  class="center-text color-text-white">
+      Y won
+    </p>
+    <p *ngIf="isDraw"  class="center-text color-text-white">
+      Draw
+    </p>
+    <br>
+    <button  *ngIf="userXWon || userYWon || isDraw" (click)="restart()" class="btn-primary">
+      Start Again
+    </button>
+    
+  </div>
+</div>
+
+<router-outlet></router-outlet>

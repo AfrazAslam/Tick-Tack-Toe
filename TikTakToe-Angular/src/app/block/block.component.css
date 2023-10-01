@@ -1,0 +1,19 @@
+div{
+    width: 99%;
+    height: 99%;
+    background-color: rgb(204, 213, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-size: 2rem;
+    color: beige;
+}
+
+.backGroundX{
+    background-color: rgb(35, 201, 255) !important;
+}
+.backGroundY{
+    background-color: rgb(200, 132, 166) !important;
+}

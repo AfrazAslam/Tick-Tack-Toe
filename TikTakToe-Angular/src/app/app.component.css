@@ -1,0 +1,20 @@
+.wrapper-container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    grid-template-rows: 10rem 10rem 10rem;
+    place-content: center;
+}
+.grid-item{
+    width: 10rem;
+    height: 10rem;
+}
+.winning-condition-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body, app-root{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.center-text{
+    text-align: center;
+}
+.color-text-white{
+    color: whitesmoke;
+}
+.btn-primary{
+    padding: 1rem;
+    margin: 1rem;
+    background-color:  rgb(204, 213, 255);
+    color:  black;
+    text-align: center;
+    border: none;
+}
